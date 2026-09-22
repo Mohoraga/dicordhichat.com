@@ -1,4 +1,9 @@
-/// <reference types="next" />
-/// <reference types="next/image-types/global" />
+const nextConfig = {
+  output: 'export',
+  reactStrictMode: true,
+  images: {
+    unoptimized: true,
+  },
+};
 
-// NOTE: This file should not be edited.
+export default nextConfig;
